@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ethers } from 'ethers';
 
 // Contract ki details yahan aayengi
-const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
+const contractAddress = "0x092fDf7Cb731f29c0Fdde37236589c5ee1503C91";
 const abi = [
   "function greeting() view returns (string)",
   "function setGreeting(string) public"
